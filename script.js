@@ -14,4 +14,7 @@ function init () {
 
     //scene
     scene = new THREE.Scene();
+
+    //geometry
+    const geometry = new THREE.BoxGeometry
 }
