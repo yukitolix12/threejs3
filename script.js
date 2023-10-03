@@ -17,5 +17,5 @@ function init () {
 
     //geometry
     const size = 250;
-    const geometry = new THREE.BoxGeometry
+    const geometry = new THREE.BoxGeometry(size, size, size);
 }
