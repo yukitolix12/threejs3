@@ -25,6 +25,6 @@ function init () {
     });
 
     for(let i = 0; i < 2500; i++) {
-        
+        const mesh = new THREE.Mesh(geometry, material);
     }
 }
