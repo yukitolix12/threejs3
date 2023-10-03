@@ -18,5 +18,9 @@ function init () {
     //geometry
     const size = 250;
     const geometry = new THREE.BoxGeometry(size, size, size);
-    const material = new THREE.MeshPhongMaterial()
+    const material = new THREE.MeshPhongMaterial({
+        color: 0xffffff,
+        specular: 0xffffff,
+        shininess: 50, //輝度
+    })
 }
