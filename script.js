@@ -3,6 +3,8 @@ import * as THREE from "./build/three.module.js";
 
 let camera, scene, renderer;
 
+init();
+
 function init () {
     //camera
     camera = new THREE.PerspectiveCamera(
