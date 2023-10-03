@@ -30,5 +30,7 @@ function init () {
         mesh.position.x = 8000 * (2.0 * Math.random() - 1.0);
         mesh.position.y = 8000 * (2.0 * Math.random() - 1.0);
         mesh.position.z = 8000 * (2.0 * Math.random() - 1.0);
+
+        scene.add(mesh);
     }
 }
