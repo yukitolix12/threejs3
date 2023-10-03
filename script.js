@@ -11,4 +11,7 @@ function init () {
         1,
         15000
     );
+
+    //scene
+    scene = new THREE.Scene();
 }
