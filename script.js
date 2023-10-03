@@ -1,1 +1,1 @@
-console.log("a");
+import * as THREE from "./build/three.module.js"
