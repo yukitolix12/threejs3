@@ -22,5 +22,9 @@ function init () {
         color: 0xffffff,
         specular: 0xffffff,
         shininess: 50, //輝度
-    })
+    });
+
+    for(let i = 0; i < 2500; i++) {
+        
+    }
 }
