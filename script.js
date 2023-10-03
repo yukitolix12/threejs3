@@ -16,5 +16,6 @@ function init () {
     scene = new THREE.Scene();
 
     //geometry
+    const size = 250;
     const geometry = new THREE.BoxGeometry
 }
