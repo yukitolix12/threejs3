@@ -33,4 +33,7 @@ function init () {
 
         scene.add(mesh);
     }
+
+    //平行光源
+    const dirLight = new THREE.DirectionalLight(0xffffff, 0.03);
 }
