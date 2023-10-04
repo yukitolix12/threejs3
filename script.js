@@ -36,6 +36,8 @@ function init () {
 
         //回転度合をランダムに決める
         mesh.rotation.x = Math.random() * Math.PI;
+        mesh.rotation.y = Math.random() * Math.PI;
+        mesh.rotation.z = Math.random() * Math.PI;
 
         scene.add(mesh);
     }
