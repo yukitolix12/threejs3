@@ -51,6 +51,7 @@ function init () {
         const light = THREE.PointLight(0xffffff, 1.5, 2000);
         light.color.setHSL(h, s, l);
         light.position.set(x, y, z);
+        scene.add(light);
     }
 
     //renderer
