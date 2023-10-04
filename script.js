@@ -4,6 +4,8 @@ import {FlyControls} from "./jsm/controls/FlyControls.js";
 
 let camera, scene, renderer;
 
+const clock = new THREE.Clock();
+
 init();
 
 function init () {
