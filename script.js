@@ -3,6 +3,7 @@ import {FlyControls} from "./jsm/controls/FlyControls.js";
 
 
 let camera, scene, renderer;
+let controls;
 
 const clock = new THREE.Clock();
 
@@ -58,6 +59,9 @@ function init () {
         light.position.set(x, y, z);
         scene.add(light);
     }
+
+    //マウス操作を行う
+
 
     //renderer
     renderer = new THREE.WebGLRenderer();
