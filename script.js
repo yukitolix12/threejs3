@@ -1,5 +1,5 @@
 import * as THREE from "./build/three.module.js";
-import {FlyControls} from "./jsm/controls/FlyControls.js";
+import { FlyControls } from "./jsm/controls/FlyControls.js";
 
 
 let camera, scene, renderer;
@@ -68,5 +68,6 @@ function init () {
     //マウス操作を行う
     controls = new FlyControls(camera, renderer.domElement);
 
+    animate();
     renderer.render(scene, camera);
 }
