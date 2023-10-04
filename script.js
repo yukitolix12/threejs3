@@ -61,7 +61,7 @@ function init () {
     }
 
     //マウス操作を行う
-
+    controls = new FlyControls(camera, renderer.domElement);
 
     //renderer
     renderer = new THREE.WebGLRenderer();
