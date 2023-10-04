@@ -46,6 +46,8 @@ function init () {
     const dirLight = new THREE.DirectionalLight(0xffffff, 0.03);
     scene.add(dirLight);
 
+    addLight(0.00, 0.3, 0.9, 0, 0, -1000);
+
     //ポイント光源を追加
     function addLight(h, s, l, x, y, z) {
         const light = THREE.PointLight(0xffffff, 1.5, 2000);
