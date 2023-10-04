@@ -13,6 +13,7 @@ function init () {
         1,
         15000
     );
+     camera.position.z = 250;
 
     //scene
     scene = new THREE.Scene();
