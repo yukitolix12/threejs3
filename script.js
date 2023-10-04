@@ -46,11 +46,11 @@ function init () {
     const dirLight = new THREE.DirectionalLight(0xffffff, 0.03);
     scene.add(dirLight);
 
-    addLight(0.00, 0.3, 0.9, 0, 0, -1000);
+    addLight(0.08, 0.3, 0.9, 0, 0, -1000);
 
     //ポイント光源を追加
     function addLight(h, s, l, x, y, z) {
-        const light = THREE.PointLight(0xffffff, 1.5, 2000);
+        const light = new THREE.PointLight(0xffffff, 1.5, 2000);
         light.color.setHSL(h, s, l);
         light.position.set(x, y, z);
         scene.add(light);
