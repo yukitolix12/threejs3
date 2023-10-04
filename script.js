@@ -48,7 +48,7 @@ function init () {
 
     //ポイント光源を追加
     function addLight(h, s, l, x, y, z) {
-        
+        const light = THREE.PointLight(0xffffff, 1.5, 2000);
     }
 
     //renderer
