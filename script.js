@@ -60,13 +60,13 @@ function init () {
         scene.add(light);
     }
 
-    //マウス操作を行う
-    controls = new FlyControls(camera, renderer.domElement);
-
     //renderer
     renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
+
+    //マウス操作を行う
+    controls = new FlyControls(camera, renderer.domElement);
 
     renderer.render(scene, camera);
 }
