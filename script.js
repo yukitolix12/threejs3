@@ -46,6 +46,11 @@ function init () {
     const dirLight = new THREE.DirectionalLight(0xffffff, 0.03);
     scene.add(dirLight);
 
+    //ポイント光源を追加
+    function addLight(h, s, l, x, y, z) {
+        
+    }
+
     //renderer
     renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
