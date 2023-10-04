@@ -1,4 +1,5 @@
 import * as THREE from "./build/three.module.js";
+import {FlyControls} from "./jsm/controls/FlyControls.js";
 
 
 let camera, scene, renderer;
