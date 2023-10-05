@@ -69,9 +69,10 @@ function init () {
     controls = new FlyControls(camera, renderer.domElement);
 
     animate();
-    renderer.render(scene, camera);
 }
 
 function animate() {
     requestAnimationFrame(animate);
+
+    renderer.render(scene, camera);
 }
