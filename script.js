@@ -71,3 +71,7 @@ function init () {
     animate();
     renderer.render(scene, camera);
 }
+
+function animate() {
+    
+}
