@@ -12,7 +12,7 @@ import {
 	Vector2,
 	Vector3,
 	Vector4
-} from 'three';
+} from  '../../../build/three.module.js';
 
 class Lensflare extends Mesh {
 
