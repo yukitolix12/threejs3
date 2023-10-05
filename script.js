@@ -52,8 +52,9 @@ function init () {
 
     //レンズフレアを追加する
     const textureLoader = new THREE.TextureLoader();
-
     const textureFlare = textureLoader.load("./textures/LensFlare.png");
+
+    const lensflare = new Lensflare();
 
     addLight(0.08, 0.3, 0.9, 0, 0, -1000);
 
