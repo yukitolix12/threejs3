@@ -50,6 +50,9 @@ function init () {
     const dirLight = new THREE.DirectionalLight(0xffffff, 0.03);
     scene.add(dirLight);
 
+    //レンズフレアを追加する
+    const textureLoader = new THREE.TextureLoader();
+
     addLight(0.08, 0.3, 0.9, 0, 0, -1000);
 
     //ポイント光源を追加
