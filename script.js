@@ -54,7 +54,7 @@ function init () {
     const textureLoader = new THREE.TextureLoader();
     const textureFlare = textureLoader.load("./textures/LensFlare.png");
 
-    const lensflare = new Lensflare();
+    
 
     addLight(0.08, 0.3, 0.9, 0, 0, -1000);
 
@@ -64,7 +64,12 @@ function init () {
         light.color.setHSL(h, s, l);
         light.position.set(x, y, z);
         scene.add(light);
-    }
+
+        const lensflare = new Lensflare();
+        lensflare.addElement(
+             new LensflareElement(textureFlare, 700, 0, light.color)
+            );
+        }
 
     //renderer
     renderer = new THREE.WebGLRenderer();
