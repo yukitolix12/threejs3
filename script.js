@@ -75,5 +75,6 @@ function animate() {
     requestAnimationFrame(animate);
 
     const delta = clock.getDelta(); //経過した時間を取得
+    controls.update(delta);
     renderer.render(scene, camera);
 }
