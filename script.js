@@ -69,6 +69,8 @@ function init () {
         lensflare.addElement(
              new LensflareElement(textureFlare, 700, 0, light.color)
             );
+
+            scene.add(lensflare);
         }
 
     //renderer
