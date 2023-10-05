@@ -68,6 +68,8 @@ function init () {
     //マウス操作を行う
     controls = new FlyControls(camera, renderer.domElement);
 
+    controls.movementSpeed = 2500;
+
     animate();
 }
 
