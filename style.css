@@ -45,3 +45,13 @@ body {
     letter-spacing: 0.1px;
     position: relative;
  }
+
+ main h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: -500px;
+    width: 70%;
+    height: 1.5px;
+ }
