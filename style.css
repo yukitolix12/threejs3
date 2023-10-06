@@ -31,3 +31,9 @@ body {
     color: white;
     font-weight: 500;
  }
+
+ main {
+    position: absolute;
+    right: 10%;
+    top: 37%;
+ }
