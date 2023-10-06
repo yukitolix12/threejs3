@@ -59,6 +59,15 @@ body {
     animation: moveToLeft 3s ease-in-out forwards;
  }
 
+ main h3 {
+    position: absolute;
+    color: white;
+    opacity: 0;
+    text-align: right;
+    margin-top: 20px;
+    right: -500px;
+ }
+
  @keyframes moveToLeft {
     to {
         transform: translateX(-500px);
