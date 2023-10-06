@@ -20,3 +20,8 @@ body {
  header ul li {
     list-style: none;
  }
+
+ header nav ul li {
+    display: inline-block;
+    margin-left: 100px;
+ }
