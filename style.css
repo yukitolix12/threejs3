@@ -10,3 +10,9 @@ body {
     height: 100vh;
     overflow: hidden;
 }
+
+ header {
+    position: absolute;
+    right: 10%;
+    padding: 40px;
+ }
