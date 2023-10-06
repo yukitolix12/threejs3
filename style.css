@@ -51,7 +51,8 @@ body {
     display: block;
     position: absolute;
     bottom: 0;
-    right: -500px;
+    right: 0px;
     width: 70%;
     height: 1.5px;
+    background-color: white;
  }
