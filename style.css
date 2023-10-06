@@ -16,3 +16,7 @@ body {
     right: 10%;
     padding: 40px;
  }
+
+ header ul li {
+    list-style: none;
+ }
