@@ -66,6 +66,7 @@ body {
     text-align: right;
     margin-top: 20px;
     right: -500px;
+    animation: moveToLeft 3s ease-in-out forwards;
  }
 
  @keyframes moveToLeft {
